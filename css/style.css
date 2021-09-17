@@ -1,0 +1,87 @@
+body{
+	background-color: rgb(244,244,244);
+	padding:0;
+	margin:0;
+	font-family:Helvetica;
+}
+
+#main-header{
+	text-align:left;
+	padding-left:15px;
+	background-color: #0b212f;
+	position:absolute;
+	width:99%;
+	color:#ffff;
+}
+
+.main-nav ul{
+	list-style:none;
+	padding-top: 10px;
+	font-family: Comic Sans MS;
+	font-size:20px;
+}
+
+.main-nav li{
+	padding:30px;
+}
+
+.main-nav a{
+	text-decoration:none;
+	color:#ffff;
+}
+
+.container{
+	width:17%;
+	background-color:#44586a;
+	position:absolute;
+	top:79px;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+.container-image{
+	position:absolute;
+	padding:10px;
+	top:28%;
+	left:25%;
+}
+
+.container-divider{
+	position:absolute;
+	top:30%;
+	left:55%;
+}
+
+.container-login{
+	position:absolute;
+	width:30%;
+	top:26%;
+	left:62%;
+	color:rgb(43,43,43);
+}
+
+.container-login h1{
+	text-align:center;
+}
+
+.container-login label{
+	text-align:left;
+	font-size:1.2em;
+	padding-top:30px;
+	padding-bottom:10px;
+	display:block;
+}
+
+.container-login input{
+	width:100%;
+	padding:10px;
+	border-color: rgb(33, 99, 139);
+	border-width:1.2px;
+	outline-color:rgb(22,121,178);
+}
+
+.container-login [type=submit]{
+	width:20%;
+	margin-top:20px;
+}
